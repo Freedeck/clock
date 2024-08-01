@@ -5,7 +5,7 @@ class Clock extends Plugin {
     constructor() {
         // With JS Hooks, you must keep the ID of your plugin the name of the source folder.
         super('Clock', 'Freedeck', 'Clock', false);
-        this.version = '1.0.0';
+        this.version = '1.1.0';
     }
 
     onInitialize () {
